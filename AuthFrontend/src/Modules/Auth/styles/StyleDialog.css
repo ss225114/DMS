@@ -1,0 +1,65 @@
+.modal{
+    margin: 200px auto;
+    height: fit-content;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+input {
+    width: 450px;
+    background-color: rgb(240, 240, 240);
+    border: none;
+    padding: 8px;
+    outline: none;
+}
+
+button{
+    height: 35px;
+    width: 85px;
+    font-size: 15px;
+    border-radius: 30px;
+    background-color: blue;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: rgb(9, 9, 125);
+}
+
+#link{
+    color: blue;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+#link:hover{
+    color: rgb(9, 9, 125);
+}
+
+#verification-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.modalClassName::backdrop {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#otp-login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}

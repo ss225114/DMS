@@ -1,0 +1,34 @@
+# -------------------------------------
+# Node/React Frontend
+# -------------------------------------
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.DS_Store
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.pnp/
+frontend.pnp.js
+
+# -------------------------------------
+# Java/Spring Boot Backend
+# -------------------------------------
+backend/target/
+backend/.classpath
+backend/.project
+backend/.settings/
+backend/.env
+backend/.DS_Store
+backend/*.log
+
+# Ignore IDE files (for all developers)
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
